@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 import random
-number = random.randint(-10000, 10000)
 import math
+number = random.randint(-10000, 10000)
 i = int(math.fmod(number, 10))
 if i > 5:
     print(f"Last digit of {number} is {i} and is greater than 5")
