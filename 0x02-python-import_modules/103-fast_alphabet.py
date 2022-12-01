@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-alpha = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-print(alpha)
+from string import ascii_uppercase
+print(ascii_uppercase)
